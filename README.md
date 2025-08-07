@@ -68,6 +68,7 @@ flowchart LR
     - Calories Calculator
     - Wikipedia"]
     SubAgents --> Streamlit["Streamlit UI"]
+```
 ---
 
 ## Usage Examples
