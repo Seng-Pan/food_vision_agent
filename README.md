@@ -1,4 +1,4 @@
-# FOOD AI CHATBOT
+# 🍽️ FOOD AI CHATBOT
 
 **An intelligent AI-powered chatbot that analyzes food images, estimates nutrition, checks dietary restrictions, and explores cultural history.** 
 
@@ -29,7 +29,7 @@
 
 ---
 
-## Quick Start  
+## 🚀 Quick Start  
 
 ### Prerequisites  
 - Python 3.8+  
@@ -56,16 +56,18 @@ TAVILY_API_KEY="your_key_here"  # Optional
 streamlit run main.py
 ```
 
-## Technical Stack
+## 🛠️ Tech Stack
+
 ```mermaid
 flowchart LR
-    User --> AI Model(GPT-4o)
-    GPT-4o --> LangGraph
-    LangGraph --> Tools
-    Tools --> Sub-Agents (Tavily Search, Calories Calculator, Wikipedia)
-    Sub-Agents --> Streamlit
-```
-
+    User --> AIModel["AI Model (GPT-4o)"]
+    AIModel --> LangGraph["LangGraph (Orchestration)"]
+    LangGraph --> Tools["Tools"]
+    Tools --> SubAgents["Sub-Agents:
+    - Tavily Search
+    - Calories Calculator
+    - Wikipedia"]
+    SubAgents --> Streamlit["Streamlit UI"]
 ---
 
 ## Usage Examples
